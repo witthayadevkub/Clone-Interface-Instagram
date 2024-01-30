@@ -1,0 +1,13 @@
+.Add{
+     width:430px;
+     height: 100%;
+     margin: 0 auto;
+     box-shadow: 0px 0px 5px #555;
+     background-color: #ffffff;
+
+}
+
+
+body{
+    background-color: rgb(226, 231, 230);
+}

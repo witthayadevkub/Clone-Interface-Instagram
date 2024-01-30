@@ -1,0 +1,97 @@
+
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.con{
+    padding-top: 44px;
+}
+
+.boxall{
+    
+    margin-top: 5px;
+    height: 106px;
+    width: auto;
+    overflow:auto;
+        .story{   
+            display:flex;
+            align-items:center;
+            gap: 15px;    
+            font-size: 13px;
+            /* padding: 0px 15px; */
+
+            p{
+                margin-top: 5px;
+            }
+        .box{
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            .photo{
+                    width:60px;height:60px;
+                    position: relative;
+                    display:flex;
+                    align-items: center;
+                    justify-content:center;
+                i{ 
+                    width: 20px;
+                    height: 20px;
+                    font-size: 100px;
+                    display:flex;
+                    align-items: center;
+                    justify-content:center;
+                    border: 2px solid #ffffff;
+                    background-color: rgb(0, 119, 230);
+                    color: #ffffff;
+                    border-radius: 50%;
+                    position: absolute;
+                    bottom:0px;
+                    right:2px
+                }
+            img{       
+                width:95%;
+                height:95%;
+                object-fit: cover;
+                border-radius:50%;
+            }
+        }
+    }
+    
+    .storyUser{     
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            .photoUser{
+                display: flex;
+                align-items:center;
+                justify-content:center;
+
+                  width:66px;
+                  height:66px;
+                    background: linear-gradient(45deg, #dfb911, rgb(218, 20, 201));
+                    border-radius: 50%;
+                .img{
+                    display: flex;
+                    align-items:center;
+                    justify-content:center;
+                    border-radius: 50%;
+                    background-color: #ffffff;
+                    width:90%;
+                    height:90%;
+                    img{
+                        width:95%;
+                        height:95%;
+                        object-fit: cover;
+                        border-radius:50%;
+                        box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+                    }
+                }
+            }
+        }
+}
+}
+
